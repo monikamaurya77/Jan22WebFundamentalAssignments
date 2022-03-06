@@ -1,0 +1,10 @@
+MERN assignment 17-01-22 :
+1. Complete all pending HW of day 1
+2. Practise everything we did in day2 class
+3. Read about time complexity — https://www.crio.do/blog/time-complexity-explained
+4. Draw the flowchart of question:
+Take the input from the user and check if it is even positive, even negative, odd positive or odd negative (using nested if else).
+5. Write the steps, flowchart and pseudocode of question:
+Print the table of any number (using for loop).
+
+Submit your assignment on your respective GitHub account.
