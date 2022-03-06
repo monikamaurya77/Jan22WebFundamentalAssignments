@@ -1,0 +1,43 @@
+body {
+    background-color: #b56576;
+}
+.item1 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 10vh;
+    left: 4vw;
+    background-color: rgb(255, 255, 255);
+}
+.item2 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 35vh;
+    left: 29vw;
+    background-color: rgb(255, 255, 255);
+}
+.item2 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 10vh;
+    left: 35vw;
+    background-color: rgb(255, 255, 255);
+}
+.item3 {
+    border: 10px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 10vh;
+    right: 10vw;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    background-color: #f4acb7;
+    width: 20vw;
+    height: 55vh;
+}
+button{  
+    padding: 2vh;
+    margin-left: 3vh;
+    background-color:#6d597a; 
+    border-radius: 5vh;
+}

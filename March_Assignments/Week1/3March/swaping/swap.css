@@ -1,0 +1,29 @@
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.container{
+    box-shadow: 4px 4px 2px 4px #fff;
+    width: 60vh;
+    position: absolute;
+    padding: 3%;
+    left: 30%;
+    top: 25%;
+    background-color: #e56b6f;
+}
+input {
+    border-radius: 2vh;
+    margin: 1vh;
+    height: 5vh;
+    text-align: center;
+}
+button{
+    border-radius: 2vh;
+    margin: 1vh;
+    padding: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 30%;
+}
