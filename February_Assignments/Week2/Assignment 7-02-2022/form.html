@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>Validation Form</title>
+</head>
+
+<body>
+    <h1>College Form</h1>
+    <h3>Please Enter your Details</h3>
+    <form action="">
+        First Name:
+        <input type="Text" placeholder="Enter your First Name" name="fname" required>
+        <br>
+        <br>
+        Middle Name:
+        <input type="Text" placeholder="Enter your Middle Name" name="mname" required>
+        <br>
+        <br>
+        Last Name:
+        <input type="Text" placeholder="Enter your Last Name" name="lname" required>
+        <br>
+        <br>
+        Phone no:
+        <input type="text" name="no" placeholder="Enter phone no" pattern="(0|91)?[6-9][0-9]{9}" required>
+        <br>
+        <br>
+        DOB:
+        <input type="date" name="date" required>
+        <br>
+        <br>
+        Password:
+        <input type="password" placeholder="Please enter password" name="pass" minlenght="8" required>
+        <br>
+        <br>
+        Gender: Male
+
+        <input type="radio" name="gender">
+        Female
+        <input type="radio" name="gender">
+        Other
+        <input type="radio" name="gender">
+        <br>
+        <br>
+        Email:
+        <input type="email" placeholder="Enter your email" name="email" required>
+        <br>
+        <br>
+        Pincode:
+        <input type="text" placeholder="enter pincode" name="pin">
+        <br>
+        <br>
+        Address:
+        <br>
+        <textarea name="add" style="resize:none;" placeholder="Please Enter Your Address" cols="30" rows="10"
+            minlength="10" maxlength="200" pattern="[a-z || A-Z]{0-300}" required></textarea>
+        <br>
+        <br>
+
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+body{
+    background-color:wheat;
+}
+h1{
+    color: seagreen;
+    text-align: center;
+    font-weight: bold;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content: space-evenly;
+	gap: 40px;
+   
+}

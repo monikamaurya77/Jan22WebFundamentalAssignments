@@ -1,0 +1,59 @@
+<html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admission Form</title>
+	
+</head>
+<body>
+	<form action="">	
+		<h1>Application Form</h1><br>
+		<label>Full Name*</label>
+		<input type="text" name="fnme" minlength="3" placeholder="Enter Full Name" pattern="^[A-Z a-z]*$" required="">
+		    
+		<label>Email*</label>
+		<input type="email" name="email" placeholder="Enter Email" pattern=".+@gmail\.com" required=""><br><br><br>
+        <label>Select Course*</label>
+		<select> 
+			<option disabled="" selected="">Select Course</option>
+			<option>Full  Stack Web development</option>
+			<option>Advance Web developmet</option>
+		</select><br><br><br>
+		<label>Phone*</label>
+		<input type="tel" name="no" pattern="[6-9]\d{9}" placeholder="Enter Mobile Number" title="Enter a Valid Phone Number" required="">
+		<label>Highest Degree*</label>
+		<select name="select_degree" required="">
+			<option disabled="" selected="">Select Degree</option>
+			<option>BTECH</option>
+			<option>BE</option>
+			<option>ME</option>
+			<option>MCA</option>
+			<option>BCA</option>
+			<option>OTHER</option>
+		</select><br><br><br>
+        <label>Year of Passing*</label>
+		<select name="select_year" required="">
+			<option disabled="" selected="">Select passing year</option>
+			<option>2018</option>
+			<option>2019</option>
+			<option>2020</option>
+			<option>2021</option>
+			<option>2022</option>
+			<option>2023</option>
+		</select>
+		<label>Programming Skills*</label>
+		<select name="select_skills" required="">
+		<option disabled="" selected="">Select programming skills</option>
+			<option>Basic coding skills</option>
+			<option>Intermediate cosing skills</option>
+			<option>Good coding skills</option>
+		</select><br><br>
+		<input type="checkbox" name="checkbox" required="">By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*<br><br>
+            <input type="reset" name="reset" value="Reset" required="">
+			<input type="submit" name="smt" value="Submit" required="">
+			
+		</form>
+
+
+
+</body>
+</html>

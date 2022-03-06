@@ -1,0 +1,51 @@
+body{
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9330e444554885.5816428f62e9a.png);
+    margin: 0;
+}
+
+.main{
+    background-color: rgb(245, 227, 227);
+    margin-right: 300px;
+    margin-top: 270px;
+    float: right;
+    position: sticky;  
+}
+
+.icon{
+    float:right;
+    
+}
+
+header{
+    margin: 0;
+    padding-top: 12px;
+    background: rgb(219, 220, 224);
+    border: 1px solid rgb(209, 208, 208);
+    height: 50px;
+    width: 300px;
+    font-weight: bold;
+
+}
+
+section{
+    text-align: center;
+    height: 280px;
+    overflow-y: scroll;
+    width: 300px;
+        
+}
+
+img{
+    height:30px;
+    width:30px;
+}
+
+footer{
+    margin-top: 3px;
+    width: 300px;  
+}
+
+.message{
+    padding-left: 20px;
+}
+

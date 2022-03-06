@@ -1,0 +1,116 @@
+body {
+    margin: 0px 0px 0px 0px;
+    background-color: black;
+
+}
+#navList {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+#navSearch {
+    height: 32px;
+    background-color:black;
+    color: white;
+    margin: 16px 0px 34px 191px;
+    width: 603px;
+    border: none;
+}
+#navSearchLogo {
+    height: 25px;
+    width: 27px; 
+}
+::placeholder {
+    color:whitesmoke;
+    opacity: 1; 
+  }
+ul li button {
+    height: 32px;
+    width: 59px;
+    margin: 16px 0px 0px 0px;
+    background-color: rgb(68, 68, 68);
+    border: none;
+}
+nav {
+   background-color:black;
+   width: 136.5%;
+}
+#hamburger {
+    height: 22px;
+    margin: 15px 0px 4px 20px;
+}
+#youtubeLog {
+    height: 64px;
+    margin: -6px 0px 4px 0px;
+}
+#navMic {
+    height: 33px;
+    width: 31px;
+    margin: 15px 0px 0px 14px;
+}
+#navideo {
+    height: 33px;
+    width: 31px;
+    margin: 15px 0px 0px 92px;
+}
+#navGrid {
+    height: 29px;
+    width: 28px;
+    margin: 18px 0px 0px 14px;
+}
+#navBell {
+    height: 29px;
+    width: 28px;
+    margin: 18px 0px 0px 14px;
+}
+#navPic {
+    height: 29px;
+    width: 28px;
+    margin: 18px 0px 0px 14px;
+}
+section {
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between; 
+   height: 100%;
+   width: 1390px;
+   color: white;          
+}
+.videotems {
+    height: 237px;
+    width: 258px;
+    margin: 13px 0px 10px 59px;
+}
+.video {
+    height: 200px;
+    width: 300px;
+    
+}
+
+.channelLogo {
+    height: 50px;
+    width: 47px;
+    margin: 10px 8px -28px 8px;
+    border-radius: 50%;
+}
+.videolink {
+    text-decoration: none;
+    color:azure;
+}
+
+.videoName {
+   font-size: large;
+}
+.videochannel {
+    color: #a3a3a3;
+    margin: 4px 15px 6px 59px;
+    font-size: 14px;
+    font-family: unset;
+}
+
+    
+
+ 

@@ -1,0 +1,37 @@
+section{
+    margin: auto;
+    background-color:rgb(26, 67, 100);
+    width: 400px;
+    height: 700px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+input{
+    width:90px;
+    height:90px;
+    cursor: pointer;
+    font-size: large;
+    
+}
+
+#answer{
+    width: 360px;
+    font-size: 26px;
+    margin-top: 50px;
+    background-color: #f1faeb;
+    margin-right: -8px;
+    margin-left: -8px;
+   
+}
+.reset{
+    width:150px;
+    height:90px;
+    float: right;
+    margin-right: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}

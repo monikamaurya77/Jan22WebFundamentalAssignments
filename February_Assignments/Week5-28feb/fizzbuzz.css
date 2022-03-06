@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    background-image: url(https://fizzbuzz.billydelashmutt.com/img/FizzBuzz.svg);
+    background-size: cover;
+}
+.container{
+    box-shadow: 8px 8px 5px 8px #888888;
+    width: 60vh;
+    position: absolute;
+    padding: 4%;
+    color:antiquewhite;
+    font-size: larger;
+  
+}
+button{
+    border-radius: 3vh;
+    padding:3%;
+    margin-left: 80px;
+    cursor: pointer;
+
+}

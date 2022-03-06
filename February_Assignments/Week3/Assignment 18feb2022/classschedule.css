@@ -1,0 +1,37 @@
+ body{
+   
+    background-color:whitesmoke;
+} 
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+table{
+	 margin: auto; 
+     width: 70%;
+     border-collapse: collapse;
+}
+th{
+    background-color:skyblue;
+}
+.font-blod{
+    font-weight: bold;
+}
+td, th{
+   border: 1px solid white;
+   text-align: left;
+   padding: 10px;
+}
+
+tr:nth-child(3n-2){
+	background-color: lightgray;
+	
+}
+tr:nth-child(3n-1){
+	background-color: gray;
+	
+}
+tr:nth-child(3n){
+	background-color: darkgray;
+	
+}

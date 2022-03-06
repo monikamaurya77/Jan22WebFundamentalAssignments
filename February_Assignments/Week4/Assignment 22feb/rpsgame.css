@@ -1,0 +1,53 @@
+body{
+    background-color:#8033cc;
+    color: white;   
+    
+}
+header{
+    
+    text-align: center;
+    font-size: 300%;
+}
+.score1{
+    font-size: 200%;
+    margin-left: 20%;
+}
+
+.star1{
+    font-size: 200%;
+    margin-left: 23%;
+   
+}
+.score2{
+    font-size: 200%;
+    margin-left: 60%;
+    margin-top: -80px;
+    display:flex;
+}
+.star2{
+    font-size: 200%;
+    margin-left: 65%;
+    
+}
+img{
+    height:400px;
+    width: 200px;
+    margin-left: 40px;
+}
+.footer1{
+    font-size: 30px;
+    margin-left: 20%;
+}
+.footer2{
+    font-size: 30px;
+    margin-left: 60%;
+    
+}
+.check{
+    color: white;
+    font-size: 350px;
+    display: flex;
+    margin-top: -500px;
+    margin-left: 900px;
+    
+}
