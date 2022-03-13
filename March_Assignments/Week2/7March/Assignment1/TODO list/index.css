@@ -1,0 +1,37 @@
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/003/437/516/original/worktable-top-view-with-laptop-coffee-and-to-do-list-notebook-vector.jpg');
+    background-size: cover ;
+}
+.container{
+    margin-top: 20vh;
+    box-shadow: 8px 8px 9px  lightslategray;
+    width: 50vw;
+    min-height: 70vh;
+    border: 3px solid #0b2545;
+    margin: auto;
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+}
+.header{
+    color: #13315c;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+input{
+    padding: 10px;
+    width: 37vw;
+    background-color: #acbdaa;
+    color:#0b2545;
+    
+}
+button{
+    padding: 8px;
+    font-weight: bolder;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #ddbea8;
+    border-radius: 40px;
+}

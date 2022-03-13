@@ -1,0 +1,30 @@
+body{
+    margin:0px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+	
+}
+nav{
+    text-align: end;
+    background-color: black;
+    color: aliceblue;
+}
+#mob{
+    height:500px;
+    border-style:solid;
+    width: 275px;
+	margin-top: 30px;
+}
+#buttons{
+    position: fixed;
+    top: 491px;
+
+}
+#search, #reels, #not, #profile{
+    display: none;
+}
+input{
+	width: 18vw;
+	padding: 3px;
+}

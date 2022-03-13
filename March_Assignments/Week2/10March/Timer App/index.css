@@ -1,0 +1,40 @@
+
+body{
+    margin: 0px;
+    background-color: #000000;
+    color: #ffff;
+    
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+a{
+    font-size: 400%;
+}
+.header > span{
+    margin-left:300px;
+}
+#stopwatch ~ img{
+    margin-left:200px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 178px;
+}
+#btn{
+   margin-left: 630px;
+   margin-top: -50px;
+   padding: 20px;
+   font-size: 50px;
+   font-weight: bolder;
+   border-radius: 10px;
+   padding-left: 70px;
+   padding-right: 70px;
+   border-color: transparent;
+   background:  rgba(29,181,253,1) ;
+   
+}

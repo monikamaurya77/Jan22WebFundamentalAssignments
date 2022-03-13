@@ -1,0 +1,68 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: #AA076B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+button{
+  width: 25vw;
+  height: 15vh;
+  background-color: #5902EC;
+  color: whitesmoke;
+  font-size: 40px;
+  font-weight: bolder;
+
+}
+
+.note{
+  height: 15vh;
+  background-color: #F2C9E1;
+  margin-top: 10px;
+  width: 25vw;
+}
+.note:hover{
+  background-color: #FFB2A6;
+}
+
+.note-explanation{
+  margin-left: 30%;
+  width: 65vw;
+  background-color: #FFB2A6;
+ border: 2px solid whitesmoke;
+ height: 40vh;
+ position: relative;
+ top: -331px;
+ display: none;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+header{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  top: -331px;
+  margin-top: -250px;
+  display: flex;
+  justify-content: center;
+
+}
+footer{
+ position: relative;
+ top: 490px;
+ float: right;
+}

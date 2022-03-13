@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Flex</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./image-gallery.png">
+</head>
+
+<body>
+    <div class="header">
+        <h1>GALLERY</h1>
+    </div>
+    <div class="flex">
+        <img id="img1" onclick="show(1)"
+            src="https://images.unsplash.com/photo-1611918126831-0a8352d6196f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+        <img id="img2" onclick="show(2)"
+            src="https://images.unsplash.com/photo-1570641963303-92ce4845ed4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+        <img id="img3" onclick="show(3)"
+            src="https://images.unsplash.com/photo-1627133833133-adbd0b0e0e50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+        <img id="img4" onclick="show(4)"
+            src="https://images.unsplash.com/photo-1613967193490-1d17b930c1a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5hdHVyZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+        <img id="img5" onclick="show(5)"
+            src="https://images.unsplash.com/photo-1622512272112-adeced423785?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+        <img id="img6" onclick="show(6)"
+            src="https://images.unsplash.com/photo-1566479509606-8dc829d87998?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG5hdHVyZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+        <img id="img7" onclick="show(7)"
+            src="https://media.istockphoto.com/photos/aerial-view-of-misty-mountains-at-sunrise-picture-id1195458582?b=1&k=20&m=1195458582&s=170667a&w=0&h=xRLz0blXsL07hGUSmxCPMu4KT_ZgleIaKr6hje8Ejh0=">
+        <img id="img8" onclick="show(8)"
+            src="https://images.unsplash.com/photo-1548382340-e7280a94e3ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG5hdHVyZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+        <img id="img9" onclick="show(9)"
+            src="https://media.istockphoto.com/photos/wooden-walkway-on-the-sunset-beach-picture-id1147944232?k=20&m=1147944232&s=612x612&w=0&h=dx00_CKyB8qDfPzFaRn5NGFB0ussfunofeO17NPLfMU=">
+        <img id="img10" onclick="show(10)"
+            src="https://media.istockphoto.com/photos/wooden-terrace-beside-tropical-resort-swimming-pool-at-dusk-picture-id1189080235?k=20&m=1189080235&s=612x612&w=0&h=OVJDqzYGdqd3jya4XCTFByJ7Db_95blhPMnMjV9-GV4=">
+        <img id="img11" onclick="show(11)"
+            src="https://media.istockphoto.com/photos/leaf-background-picture-id844226534?k=20&m=844226534&s=612x612&w=0&h=0s5eix34N-rY2K7kHmdCG5ANURpfjWWFeJ0ITW6jIdI=">
+        <img id="img12" onclick="show(12)"
+            src="https://media.istockphoto.com/photos/beautiful-landscape-at-mystical-day-with-mountains-and-lake-travel-picture-id1080676040?k=20&m=1080676040&s=612x612&w=0&h=Ng-LbUVNkZhbF7o1qugLe61pMaoGO4vxecT4fSFQRqo=">
+        <img id="img13" onclick="show(13)"
+            src="https://images.unsplash.com/photo-1491378630646-3440efa57c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3w5NDY4NTk1fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+        <img id="img14" onclick="show(14)"
+            src="https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5NDY4NTk1fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+        <img id="img15" onclick="show(15)"
+            src="https://images.unsplash.com/photo-1473186578172-c141e6798cf4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXw5NDY4NTk1fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+        <img id="img16" onclick="show(16)"
+            src="https://media.istockphoto.com/photos/aerial-view-of-misty-mountains-at-sunrise-picture-id1195458582?k=20&m=1195458582&s=612x612&w=0&h=gzpAJTwppTIEAhNbUaHnjuRQoYon0F4C87UQ3xXv1oU=">
+        <img id="img17" onclick="show(17)"
+            src="https://images.unsplash.com/photo-1473221326025-9183b464bb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8OTQ2ODU5NXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60">
+        <img id="img18" onclick="show(18)"
+            src="https://media.istockphoto.com/photos/beautiful-landscape-with-high-mountains-with-illuminated-peaks-stones-picture-id920377882?k=20&m=920377882&s=612x612&w=0&h=ygY1VOmupXqbqEX4Dg4LfJV4hNGvFD0bTRn7dcetnmQ=">
+        <img id="img19" onclick="show(19)"
+            src="https://images.unsplash.com/photo-1608759704645-4ffc59c932c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG5hdHVyZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+
+
+
+    </div>
+    <div id="popup" class="none">
+        <button onclick="cross()" class="cancel">❌</button>
+        <img id="popup_img" src="https://wallpapercave.com/wp/wp4063162.jpg">
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
